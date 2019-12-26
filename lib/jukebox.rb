@@ -27,11 +27,7 @@ end
 def play(songs)
   puts "Choose a song or track number"
   input = gets.strip 
-    songs.each do |song|
-      if input == song 
-        return "Playing #{song}"
-      elsif input == 
-    end 
+  
 end 
 
 
