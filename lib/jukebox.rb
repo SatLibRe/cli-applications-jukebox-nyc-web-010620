@@ -28,7 +28,7 @@ def list(songs)
 end 
 
 def play(songs) 
-  puts "Please enter a song name or number:r"
+  puts "Please enter a song name or number"
   input = gets.strip.to_s
     if (1..9).to_a.include?(input.to_i)
       puts "Playing #{songs[input.to_i - 1]}"
@@ -59,6 +59,6 @@ def run(songs)
           exit_jukebox 
           break
       end 
-  end
+    end
 end 
 
