@@ -49,10 +49,10 @@ def run
       help
       gets.strip 
     elsif input == "list"
-      list 
+      list(songs) 
       gets.strip
     elsif input == "play"
-      play
+      play(songs)
     elsif input == "exit"
       exit_jukebox
     end 
