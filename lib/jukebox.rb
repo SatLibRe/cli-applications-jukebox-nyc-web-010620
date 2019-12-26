@@ -37,7 +37,12 @@ def play(songs)
   end 
 end 
 
-
+def exit
+  input = gets.strip
+    if input == "exit"
+      puts "Goodbye"
+    end 
+end 
 
 
 
