@@ -27,7 +27,8 @@ end
 def play(songs)
   puts "Choose a song or track number"
   input = gets.strip 
-    
+    if (1..9).to_a.include?  
+    end 
 end 
 
 
